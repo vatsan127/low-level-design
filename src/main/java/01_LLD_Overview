@@ -1,0 +1,59 @@
+HLD
+
+	Component structure and it communicates
+
+LLD
+	majorly focuses on classes and object within a system
+	Write clean code
+	should be flexible and maintainable
+
+
+Categories of LLD
+		Creational
+		Structural
+		Behavioural
+
+	Todo: why do we need these patterns
+
+Creational Design
+	it controls the object creation
+
+	singleton
+	factory
+	abstract factory
+	builder
+	prototype
+	objectpool
+
+Structural Design
+	how different classes are arranged together so that the larger problem can be solved in a most flexible way
+
+	Decorator
+	adapter
+	proxy
+	facade
+	flyweight
+	composite
+
+
+Behavioural Design
+	how different objects communicate or interact with eachother
+
+	state
+	strategy
+	observer
+	iterator
+
+
+has a and is a relationship
+
+	is-a relationship - inheritance
+	has-a relationship - link between 2 objects
+
+
+	association `->`
+	aggregation (weak relationship)		Existence of one object is not dependent on another
+	Library and books both are independent of eachother if the books are not present library can still exists and similarly if the library does not exists books can be present
+
+	composition (strong relationship)	Existence of one object is dependent on another
+	house and rooms are dependent on eachother. rooms existence is depends on house. also if house does not exists rooms does not exists
