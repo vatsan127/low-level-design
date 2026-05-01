@@ -1,0 +1,46 @@
+SOLID Principles
+
+S - single responsibility Principle
+O - Open / Closed Principle
+L - Liskov substitution principle
+I - interface segmentation principle
+D - Dependency Inversion Principle
+
+Advantages of using solid design principles
+- helps to write better code
+- avoid duplicate code
+- easy to maintain
+- easy to understand
+- flexible software
+- reduce complexity
+
+SRP
+    A class should have only one reason to change
+    meaning it should have one and only job or responsibility
+
+OCP
+    A class should be open for extension but closed for modification
+    means that the new functionality can be added through the inheritance rather than by modifying existing code
+    As existing code is already tested and deployed in production,  adding modifications would introduce an additional risk and require addintional testing effort
+
+LSP
+    objects of a superclass should be replaceable with objects of its subclasses without breaking the applicatoin
+    means if class B is a subtype of class A, then we should be able to replace objects of A with B without breaking the behaviour of the program
+
+    or
+
+    any implementation of the interface should be substitutable for another without breaking expected behaviour or contracts
+
+    subclass should be able to extend the  capability of the parent class should not narrow it down.
+
+
+ISP
+    Interface should be such that the client should not implement unnecessary functons they do not need.
+    classes should not be forced to implement methods that don't support
+    code becomes bloated with empty or error-throwing methods
+    violates the principle that clients shouldnt depend on  unused interfaces
+
+DIP
+    high level compoents should not depend on low level components directly; instead they should depend on abstractions
+
+
