@@ -1,0 +1,11 @@
+It's a design pattern where an object (aka "observable" or "publisher") maintain a list of dependents (called "observers")
+and automatically notifies dependants / observers whenever there is a change in its state
+
+2 models
+
+Push: Observable pushes the data it want to the observer to receive
+Pull: Observer holds observable object reference and when it got to know something updated, it pulls the data whatever it needs using observable object
+
+
+todo: example social media feeds
+
