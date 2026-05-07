@@ -1,6 +1,0 @@
-it is a behavioral design pattern that defines multiple algorithms, encapsulates their logic in dedicated classes and enables changing an algorithm's behaviour at runtime
-it's useful when you have multiple ways to perform a task and want to choose the approach dynamically
-problems it solves: code duplication and tight coupling
-
-
-todo: example with the payment modes
