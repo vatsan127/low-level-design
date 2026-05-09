@@ -72,7 +72,7 @@ Two parallel implementations live side-by-side so you can compare:
 
 **Push model** (`feed/push/`):
 
-- `Subscriber.java` — receives `update(Post post)` with the data already in hand.
+- `Subscriber.java` — receives `update(String post)` with the data already in hand.
 - `SocialAccount.java` — pushes the new post to every subscriber.
 - `EmailSubscriber.java`, `MobilePushSubscriber.java` — concrete subscribers.
 - `PushDemo.java` — runs the demo.

@@ -85,6 +85,6 @@ Benefits:
 - **Flexibility** — replace MySQL with Postgres without touching business logic.
 - **Decoupling** — business code does not know or care which concrete class it talks to.
 
-**DIP vs DI (Dependency Injection):** DIP is the *principle* (depend on abstractions). DI is one common *technique* for applying it (pass dependencies in via constructor/setter rather than `new`-ing them inside).
+**DIP vs DI (Dependency Injection):** DIP is the *principle* (depend on abstractions). DI is one common *technique* for applying it (pass dependencies in via constructor/setter rather than `new`-ing them inside). Note: DI alone doesn't satisfy DIP — you can inject a concrete class without an interface, which is DI but still couples high-level code to a specific implementation. The principle requires the **abstraction** (the interface), not just the injection mechanism.
 
 **Code example:** `dip/Bad.java`, `dip/Good.java`. Bad has `NotificationService` that directly creates an `EmailSender`; Good defines a `MessageSender` interface and the concrete `EmailSender` is injected into the constructor.

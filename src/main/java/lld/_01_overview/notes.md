@@ -27,7 +27,7 @@ Design patterns are reusable solutions to recurring LLD problems. Knowing them g
 
 ## Categories of design patterns
 
-LLD patterns are grouped into three categories based on what they're for.
+LLD patterns are grouped into three categories based on what they're for. The classic catalog is the *Gang of Four* (GoF) book *Design Patterns: Elements of Reusable Object-Oriented Software* (1994), which lists 23 patterns. Tables below include a few popular non-GoF additions (Object Pool, Dependency Injection-flavoured Factory variants, etc.) since you'll meet them in real code.
 
 ### Creational — *how objects are created*
 

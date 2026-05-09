@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git mv *)",
+      "Bash(mvn -q compile)",
+      "Bash(java -cp target/classes lld._02_solid.srp.Bad)",
+      "Bash(java -cp target/classes lld._03_strategy.payment.Demo)",
+      "Bash(java -cp target/classes lld._04_observer.feed.push.PushDemo)",
+      "Bash(java -cp target/classes lld._04_observer.feed.pull.PullDemo)",
+      "Bash(javadoc --version)",
+      "Bash(jshell --execution *)",
+      "Bash(java -cp target/classes lld._02_solid.lsp.Bad)",
+      "Bash(java -cp target/classes lld._02_solid.lsp.Good)",
+      "Bash(java -cp target/classes lld._02_solid.ocp.Good)",
+      "Bash(java -cp target/classes lld._02_solid.isp.Good)",
+      "Bash(java -cp target/classes lld._02_solid.dip.Good)",
+      "Bash(git config *)",
+      "Read(//c/Users/srivatsan.n/**)",
+      "Bash(java -cp target/classes lld._06_factory.shape.Demo)",
+      "Bash(java -cp target/classes lld._05_decorator.coffee.Demo)"
+    ]
+  }
+}
